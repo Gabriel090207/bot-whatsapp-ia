@@ -16,14 +16,82 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
 app = Flask(__name__)
 
-# 🔒 ARMAZENAR OS ÚLTIMOS IDs PARA EVITAR MENSAGENS DUPLICADAS
+# =====================================================================
+# ANTI LOOP – guarda últimos 30 IDs processados
+# =====================================================================
 ULTIMAS_MENSAGENS = deque(maxlen=30)
 
-# 🔥 PROMPT ATUALIZADO
+# =====================================================================
+# PROMPT COMPLETO – BOT DE SUPORTE NATURAL (SEM VENDAS)
+# =====================================================================
+
 PROMPT_SUPORTE = """
-Você é um atendente humano...
-(igual ao anterior, exatamente como te passei)
+Você é um atendente humano da plataforma Dominando Animação / Kirvano.
+
+Seu papel é ajudar o usuário com dúvidas técnicas e suporte, sempre de forma natural, simples e nada robótica. Fale como alguém normal no WhatsApp.
+
+NUNCA diga que é inteligência artificial.
+
+------------------------------------------
+VOCÊ AJUDA COM:
+------------------------------------------
+• Acesso ao painel  
+• Credenciais (email e senha rotativos)  
+• Geração de códigos TOTP (30 segundos)  
+• Limite de 2 códigos por dia  
+• Problemas de acesso e login  
+• Uso da aba “Autenticador”  
+• Expiração de código  
+• Tutorial da ferramenta  
+• Funcionamento geral da plataforma  
+• Diferenças dos planos e valores (somente explicação técnica, sem vender)  
+• Horários de suporte  
+• O que cada ferramenta libera  
+• Outras dúvidas técnicas do produto  
+
+IMPORTANTE:
+Você **pode explicar os planos**, preços e diferenças.  
+Você **não pode tentar vender**, recomendar ou influenciar o cliente.  
+Apenas informar, se perguntarem.
+
+------------------------------------------
+REGRAS DE ATENDENTE:
+------------------------------------------
+1. Fale de forma natural, estilo WhatsApp.
+2. Nada de respostas robóticas ou formais demais.
+3. Não invente informações.
+4. No máximo 1 emoji por mensagem.
+5. Frases curtas e diretas.
+6. Sempre que fizer sentido, ofereça ajuda no final:  
+   “Se quiser, te explico outra parte também.”
+
+------------------------------------------
+EXEMPLOS:
+------------------------------------------
+Usuário: "Quais são os planos?"
+Você: "Claro! Hoje temos três planos: Plus (+50 ferramentas – R$ 49,90), Premium (+100 ferramentas – R$ 79,90) e Super Premium (+300 ferramentas – R$ 159,90 e ferramentas exclusivas). Se quiser, te explico a diferença entre eles rapidinho 🙂"
+
+Usuário: "O código não funciona"
+Você: "Isso acontece quando os 30 segundos passam. Gera outro no painel que aparece certinho pra você 🙂"
+
+Usuário: "Qual meu email e senha?"
+Você: "As credenciais ficam no painel, no card 'Dados de Acesso'. Lá sempre mostra o email e a senha atualizada."
+
+------------------------------------------
+ESTILO:
+------------------------------------------
+• Natural  
+• Humano  
+• Simples  
+• Amigável  
+• Nada robótico  
+• Nada técnico demais  
+• Sem markdown  
 """
+
+# =====================================================================
+# IA (OpenAI)
+# =====================================================================
 
 def gerar_resposta_ia(texto_usuario):
     resposta = client.chat.completions.create(
@@ -35,13 +103,18 @@ def gerar_resposta_ia(texto_usuario):
     )
     return resposta.choices[0].message.content.strip()
 
+# =====================================================================
+# Funções Z-API
+# =====================================================================
+
 def enviar_digitando(numero):
-    url = f"https://api.z-api.io/instances/{INSTANCE_ID}/token/{INSTANCE_TOKEN}/send-status-typing"
-    headers = {"Client-Token": CLIENT_TOKEN}
     try:
+        url = f"https://api.z-api.io/instances/{INSTANCE_ID}/token/{INSTANCE_TOKEN}/send-status-typing"
+        headers = {"Client-Token": CLIENT_TOKEN}
         requests.post(url, headers=headers)
     except:
         pass
+
 
 def enviar_mensagem_zapi(numero, texto):
     url = f"https://api.z-api.io/instances/{INSTANCE_ID}/token/{INSTANCE_TOKEN}/send-text"
@@ -50,7 +123,11 @@ def enviar_mensagem_zapi(numero, texto):
         "Content-Type": "application/json"
     }
     payload = {"phone": numero, "message": texto}
-    requests.post(url, headers=headers, json=payload)
+    requests.post(url, json=payload, headers=headers)
+
+# =====================================================================
+# WEBHOOK PRINCIPAL
+# =====================================================================
 
 @app.route("/webhook", methods=["POST"])
 def webhook():
@@ -58,51 +135,55 @@ def webhook():
     print("RECEBIDO:", data)
 
     try:
-        # ⚠️ 1. VERIFICAR SE TEM ID ÚNICO
-        msg_id = data.get("messageId") or data.get("id") or None
-
+        # 1 — pegar o ID da mensagem
+        msg_id = data.get("messageId")
         if not msg_id:
-            print("Sem ID → Ignorado.")
+            print("Ignorado: sem messageId")
             return "OK", 200
 
-        # ⚠️ 2. SE JÁ PROCESSOU ESSE ID → IGNORA
+        # 2 — bloquear duplicadas
         if msg_id in ULTIMAS_MENSAGENS:
-            print("Mensagem duplicada → Ignorada.")
+            print("Ignorado: mensagem duplicada")
             return "OK", 200
 
-        # salvar ID para evitar repetição
         ULTIMAS_MENSAGENS.append(msg_id)
 
-        # ⚠️ 3. VALIDAR QUE É CHAT DO USUÁRIO
-        if "text" not in data:
-            return "IGNORADO", 200
+        # 3 — só processa mensagens de usuário
+        if data.get("type") != "ReceivedCallback":
+            return "OK", 200
 
+        if data.get("fromMe") is True:
+            return "OK", 200
+
+        # 4 — extrair texto
         text_block = data.get("text", {})
         msg = text_block.get("message")
         numero = data.get("phone")
 
         if not msg:
-            return "IGNORADO", 200
-
-        if text_block.get("fromMe"):
-            return "IGNORADO", 200
-
-        if text_block.get("type") != "chat":
-            return "IGNORADO", 200
+            print("Ignorado: sem texto")
+            return "OK", 200
 
         print(f">> Mensagem válida de {numero}: {msg}")
 
-        # Processar normalmente
+        # 5 — efeito humano
         enviar_digitando(numero)
         time.sleep(20)
 
+        # 6 — gerar resposta
         resposta = gerar_resposta_ia(msg)
+
+        # 7 — enviar
         enviar_mensagem_zapi(numero, resposta)
 
     except Exception as e:
         print("Erro:", e)
 
     return "OK", 200
+
+# =====================================================================
+# INICIAR SERVIDOR
+# =====================================================================
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
