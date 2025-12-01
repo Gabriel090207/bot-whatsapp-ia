@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bot-whatsapp-ia
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      WHATSAPP_VERIFY_TOKEN: ""
+      WHATSAPP_API_TOKEN: ""
+      WHATSAPP_PHONE_NUMBER_ID: ""
+      OPENAI_API_KEY: ""
