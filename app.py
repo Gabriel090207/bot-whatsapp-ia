@@ -1,77 +1,78 @@
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request
 import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# ⚠️ Carregar .env
 load_dotenv()
 
+ZAPI_INSTANCE_ID = os.getenv("ZAPI_INSTANCE_ID")
+ZAPI_TOKEN = os.getenv("ZAPI_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-# ⚠️ Configuração Z-API
-INSTANCE_ID = "3EB0D956FE2A30E093AF4EAB8513EE1E"
-INSTANCE_TOKEN = "2E7ADF233725BCA0BA329488"
-
-ZAPI_URL = f"https://api.z-api.io/instances/{INSTANCE_ID}/token/{INSTANCE_TOKEN}/send-text"
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 app = Flask(__name__)
 
-
-# 🔥 GERAR RESPOSTA COM OPENAI
-def gerar_resposta_ia(texto_usuario):
+def gerar_resposta_ia(texto_usuario: str) -> str:
     resposta = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", 
-             "content": "Você é um atendente humano, amigável, educado e direto nas respostas."},
-            {"role": "user", "content": texto_usuario}
+            {
+                "role": "system",
+                "content": (
+                    "Você é um atendente de WhatsApp brasileiro, educado e prestativo. "
+                    "Responda de forma simples, natural e humana."
+                )
+            },
+            {
+                "role": "user",
+                "content": texto_usuario
+            }
         ]
     )
-    return resposta.choices[0].message.content
+    return resposta.choices[0].message.content.strip()
 
-
-# 🔥 ENVIAR MENSAGEM PARA O WHATSAPP (Z-API)
-def enviar_mensagem(numero, texto):
+def enviar_mensagem(numero: str, texto: str):
+    url = f"https://api.z-api.io/instances/{ZAPI_INSTANCE_ID}/token/{ZAPI_TOKEN}/send-text"
+    
     payload = {
         "phone": numero,
         "message": texto
     }
-    r = requests.post(ZAPI_URL, json=payload)
-    print("Resposta Z-API:", r.text)
 
+    headers = {"Content-Type": "application/json"}
 
-# 🔥 ROTA DE TESTE
-@app.route("/")
-def home():
-    return "Bot WhatsApp com Z-API está rodando!", 200
+    r = requests.post(url, json=payload, headers=headers)
+    print("Resposta da Z-API:", r.status_code, r.text)
 
-
-# 🔥 ROTA DO WEBHOOK (recebe mensagem e responde)
 @app.route("/webhook", methods=["POST"])
-def webhook():
-    data = request.get_json()
-    print("RECEBIDO DA Z-API:", data)
-
+def receber_webhook():
     try:
-        numero = data["message"]["phone"]
-        texto = data["message"]["text"]["message"]
+        data = request.get_json()
+        print("RECEBIDO DA Z-API:", data)
 
-        print(f"Mensagem recebida de {numero}: {texto}")
+        if "text" in data and "message" in data["text"]:
+            texto = data["text"]["message"]
+            numero = data["phone"]
 
-        resposta = gerar_resposta_ia(texto)
+            print(f">> Mensagem recebida de {numero}: {texto}")
 
-        enviar_mensagem(numero, resposta)
+            resposta = gerar_resposta_ia(texto)
+            enviar_mensagem(numero, resposta)
+
+        else:
+            print("⚠️ Nenhuma mensagem de texto encontrada.")
 
     except Exception as e:
         print("Erro ao processar webhook:", e)
 
-    return jsonify({"status": "OK"}), 200
+    return "OK", 200
 
+@app.route("/")
+def home():
+    return "BOT ONLINE"
 
-# 🔥 RENDER EXIGE ESSA PORTA
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
