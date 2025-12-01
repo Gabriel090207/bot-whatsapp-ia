@@ -6,73 +6,67 @@ from openai import OpenAI
 
 load_dotenv()
 
-ZAPI_INSTANCE_ID = os.getenv("ZAPI_INSTANCE_ID")
-ZAPI_TOKEN = os.getenv("ZAPI_TOKEN")
+# Carrega variáveis de ambiente
+INSTANCE_ID = os.getenv("ZAPI_INSTANCE_ID")
+INSTANCE_TOKEN = os.getenv("ZAPI_TOKEN")
+CLIENT_TOKEN = os.getenv("ZAPI_CLIENT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+print("DEBUG - CLIENT TOKEN:", CLIENT_TOKEN)    # <– PARA VER NO LOG DO RENDER
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 app = Flask(__name__)
 
-def gerar_resposta_ia(texto_usuario: str) -> str:
+def gerar_resposta_ia(texto):
     resposta = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {
-                "role": "system",
-                "content": (
-                    "Você é um atendente de WhatsApp brasileiro, educado e prestativo. "
-                    "Responda de forma simples, natural e humana."
-                )
-            },
-            {
-                "role": "user",
-                "content": texto_usuario
-            }
+            {"role": "system", "content": "Você é um atendente amigável."},
+            {"role": "user", "content": texto}
         ]
     )
     return resposta.choices[0].message.content.strip()
 
-def enviar_mensagem(numero: str, texto: str):
-    url = f"https://api.z-api.io/instances/{ZAPI_INSTANCE_ID}/token/{ZAPI_TOKEN}/send-text"
-    
+
+def enviar_mensagem_zapi(numero, texto):
+    url = f"https://api.z-api.io/instances/{INSTANCE_ID}/token/{INSTANCE_TOKEN}/send-text"
+
     payload = {
         "phone": numero,
         "message": texto
     }
 
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Client-Token": CLIENT_TOKEN,
+        "Content-Type": "application/json"
+    }
 
-    r = requests.post(url, json=payload, headers=headers)
-    print("Resposta da Z-API:", r.status_code, r.text)
+    resposta = requests.post(url, json=payload, headers=headers)
+    print("Resposta da Z-API:", resposta.status_code, resposta.text)
+
 
 @app.route("/webhook", methods=["POST"])
-def receber_webhook():
+def webhook():
+    data = request.json
+    print("RECEBIDO DA Z-API:", data)
+
     try:
-        data = request.get_json()
-        print("RECEBIDO DA Z-API:", data)
+        msg = data["text"]["message"]
+        numero = data["phone"]
 
-        if "text" in data and "message" in data["text"]:
-            texto = data["text"]["message"]
-            numero = data["phone"]
+        print(f">> Mensagem recebida de {numero}: {msg}")
 
-            print(f">> Mensagem recebida de {numero}: {texto}")
+        resposta = gerar_resposta_ia(msg)
 
-            resposta = gerar_resposta_ia(texto)
-            enviar_mensagem(numero, resposta)
+        enviar_mensagem_zapi(numero, resposta)
 
-        else:
-            print("⚠️ Nenhuma mensagem de texto encontrada.")
-
-    except Exception as e:
-        print("Erro ao processar webhook:", e)
+    except Exception as erro:
+        print("Erro ao processar webhook:", erro)
 
     return "OK", 200
 
-@app.route("/")
-def home():
-    return "BOT ONLINE"
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
