@@ -3274,6 +3274,10 @@ Planos:
 • PREMIUM → https://pay.kirvano.com/21a54cbe-6c11-46cb-bd30-029c5cceda0f
 • SUPER PREMIUM → https://pay.kirvano.com/75562bd7-4d63-4463-bc3e-53439a130710
 
+
+
+Os Planos tem mensal, trimestral, semestral e anual, essas opções para todos os planos.
+
 ===================================================================
 ESTILO DAS RESPOSTAS
 ===================================================================
