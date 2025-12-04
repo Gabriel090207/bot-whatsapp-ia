@@ -3206,6 +3206,8 @@ REGRAS DE AUTENTICAÇÃO
 • Premium → 1 autenticação por dia
 • Super Premium → ilimitado
 
+
+lembrando que isso de autenticação não é por ferramenta é na plataforma do adspower, exemplo a pessoa pode acessar o adspower 2 vezes mas isso nao siginfica que so pode autenticar em so 2 ferramentas, ele pode acessar todas as ferramentas de acordo com o plano,  a autenticação é no adspower não na ferramenta.
 Cada código vale 1 acesso e dura 30 segundos.
 
 ===================================================================
