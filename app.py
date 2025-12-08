@@ -19,7 +19,7 @@ app = Flask(__name__)
 # ============================================================
 # ANTI LOOP – evita respostas duplicadas
 # ============================================================
-ULTIMAS_MENSAGENS = deque(maxlen=40)
+ULTIMAS_MENSAGENS = deque(maxlen=200)
 
 # ============================================================
 # PROMPT FINAL COMPLETO
@@ -3359,23 +3359,40 @@ def webhook():
         if data.get("fromMe") is True:
             return "OK", 200
 
-        texto = data.get("text", {}).get("message")
         numero = data.get("phone")
 
+        # ========= CAPTURA DE TEXTO (VÁRIOS FORMATOS) =========
+        texto = None
+
+        # Formato antigo: {"text": {"message": "oi"}}
+        if isinstance(data.get("text"), dict):
+            texto = data.get("text", {}).get("message")
+
+        # Formato novo: {"text": "oi"}
+        elif isinstance(data.get("text"), str):
+            texto = data.get("text")
+
+        # Fallbacks comuns
         if not texto:
+            texto = data.get("body") or data.get("message") or data.get("caption")
+
+        if not texto:
+            print("Nenhum texto encontrado na mensagem, ignorando.")
             return "OK", 200
 
         print(f">> Mensagem recebida de {numero}: {texto}")
 
-        # Simula digitando humano
+        # Simula digitando humano (sem travar muito tempo)
         enviar_digitando(numero)
-        time.sleep(20)
+        time.sleep(1)  # se quiser, pode remover essa linha
 
         resposta = gerar_resposta_ia(texto)
         enviar_mensagem(numero, resposta)
 
     except Exception as e:
+        import traceback
         print("Erro:", e)
+        traceback.print_exc()
 
     return "OK", 200
 
