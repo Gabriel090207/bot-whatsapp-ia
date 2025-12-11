@@ -52,8 +52,8 @@ o uso das ferramentas sao ilimitadas ou seja gerar videos, imagens e tudo mais d
 FERRAMENTAS POR PLANO E O QUE CADA UMA FAZ
 ===================================================================
 
-PLANO PLUS:
-{
+Ferramentas Plano Plus = [
+    {
       nome: "Sora (Plus)",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
@@ -228,836 +228,11 @@ PLANO PLUS:
       nome: "Digen AI",
       descricao:
         "Gera conteúdo digital completo com automação e inteligência artificial.",
-    }
+    },
+  ];
 
-
-
-PLANO PREMIUM:
-{
-      nome: "Sora (Plus",
-      descricao: "Gera vídeos realistas com IA a partir de texto.",
-    },
+Ferramentas Super Premium = [
     {
-      nome: "Heygen (Team)",
-      descricao:
-        "Cria avatares falantes e vídeos automatizados com dublagem em múltiplos idiomas.",
-    },
-    {
-      nome: "Leonardo (Maestro)",
-      descricao: "Gera imagens artísticas detalhadas e estilosas por IA.",
-    },
-    {
-      nome: "Adsparo",
-      descricao: "Cria e otimiza anúncios automaticamente para redes sociais.",
-    },
-    {
-      nome: "Gamma App (Pro)",
-      descricao:
-        "Cria apresentações modernas e interativas de forma automática.",
-    },
-    {
-      nome: "CapCut Pro",
-      descricao:
-        "Editor de vídeo completo com efeitos premium e recursos avançados.",
-    },
-    {
-      nome: "Canva Pro",
-      descricao: "Design gráfico fácil com templates e recursos profissionais.",
-    },
-    {
-      nome: "ChatGPT (Plus)",
-      descricao: "Assistente de IA avançado para escrita, ideias e automações.",
-    },
-    {
-      nome: "Freepik",
-      descricao: "Banco de imagens, vetores e ícones de alta qualidade.",
-    },
-    {
-      nome: "DreamFace",
-      descricao: "Cria rostos e retratos realistas com IA.",
-    },
-    {
-      nome: "You.com",
-      descricao: "Buscador inteligente com IA e respostas contextuais.",
-    },
-    {
-      nome: "Grok",
-      descricao: "IA de conversação com foco em humor e respostas rápidas.",
-    },
-    {
-      nome: "Place It",
-      descricao: "Gera mockups, logos e vídeos promocionais automaticamente.",
-    },
-    {
-      nome: "Ideogram (Plus)",
-      descricao: "Gera imagens com tipografia criativa e realista.",
-    },
-    {
-      nome: "Vectorizer",
-      descricao: "Transforma imagens raster em vetores automaticamente.",
-    },
-    {
-      nome: "Sem Rush (Pro, Guru e Business)",
-      descricao: "Ferramenta de SEO e análise de tráfego profissional.",
-    },
-    {
-      nome: "Ubersuggest",
-      descricao: "Pesquisa palavras-chave e monitora concorrentes de SEO.",
-    },
-    {
-      nome: "SEO Site Checkup",
-      descricao: "Analisa o desempenho SEO completo de sites.",
-    },
-    {
-      nome: "Keyword Revealer",
-      descricao: "Descobre palavras-chave com alto potencial de ranqueamento.",
-    },
-    {
-      nome: "Moz Pro",
-      descricao: "Ferramenta de SEO com métricas de autoridade e backlinks.",
-    },
-    {
-      nome: "Spyfu",
-      descricao:
-        "Monitora e analisa estratégias de palavras-chave de concorrentes.",
-    },
-    {
-      nome: "Serpstat",
-      descricao: "Plataforma de SEO para análise e auditoria de sites.",
-    },
-    {
-      nome: "Envato Elements",
-      descricao: "Repositório com milhões de recursos criativos premium.",
-    },
-    {
-      nome: "Vistacreate",
-      descricao:
-        "Alternativa ao Canva com modelos profissionais e IA criativa.",
-    },
-    {
-      nome: "WordHero",
-      descricao:
-        "Gera textos e ideias de marketing com inteligência artificial.",
-    },
-    {
-      nome: "Frase IO",
-      descricao: "Otimiza conteúdo com base em SEO e intenção de busca.",
-    },
-    {
-      nome: "Grammarly",
-      descricao:
-        "Corrige gramática, estilo e clareza de textos automaticamente.",
-    },
-    {
-      nome: "Quillbot",
-      descricao: "Reformula textos e parafraseia com alta precisão.",
-    },
-    {
-      nome: "WordAI",
-      descricao: "Reescreve textos mantendo o sentido e naturalidade humana.",
-    },
-    {
-      nome: "Picsart",
-      descricao: "Editor de fotos e vídeos com filtros e IA criativa.",
-    },
-    {
-      nome: "Writerzen",
-      descricao: "Plataforma de pesquisa de palavras-chave e SEO semântica.",
-    },
-    {
-      nome: "Linguix",
-      descricao: "Assistente de escrita com foco em gramática e estilo.",
-    },
-    {
-      nome: "Wordtune",
-      descricao: "Melhora a clareza e o tom de textos de forma natural.",
-    },
-    {
-      nome: "Storybase",
-      descricao:
-        "Descobre tópicos e palavras-chave com base em intenção do usuário.",
-    },
-    {
-      nome: "Smodin",
-      descricao:
-        "Ferramenta multifuncional de IA para escrever, traduzir e resumir.",
-    },
-    {
-      nome: "LongTailPro",
-      descricao: "Gera ideias de palavras-chave long tail para SEO.",
-    },
-    {
-      nome: "Keyword Tool",
-      descricao:
-        "Encontra palavras-chave em múltiplas plataformas (Google, YouTube, etc).",
-    },
-    {
-      nome: "GrowthBar",
-      descricao:
-        "Cria conteúdo otimizado para SEO com inteligência artificial.",
-    },
-    {
-      nome: "Seoptimer",
-      descricao: "Auditoria SEO e análise de performance técnica do site.",
-    },
-    {
-      nome: "Ahrefs",
-      descricao: "Análise profunda de backlinks, SEO e concorrentes.",
-    },
-    {
-      nome: "Voice Clone",
-      descricao: "Clona vozes humanas realistas a partir de amostras de áudio.",
-    },
-    {
-      nome: "Digen AI",
-      descricao:
-        "Gera conteúdo digital completo com automação e inteligência artificial.",
-    },
-    {
-      nome: "A.I Song Generator",
-      descricao: "Cria músicas completas e letras com IA generativa.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Adworld Prime",
-      descricao: "Treinamentos e estratégias avançadas de marketing digital.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Aiease",
-      descricao: "Assistente de escrita e geração de respostas automáticas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Artsmart",
-      descricao: "Gera imagens e arte digital com IA generativa.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "BK Reviews",
-      descricao: "Analisa produtos e cria avaliações automáticas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Boolv.Video",
-      descricao: "Cria vídeos curtos automaticamente com base em textos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Captions",
-      descricao: "Adiciona legendas automáticas e sincronizadas em vídeos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Claude (Pro)",
-      descricao: "IA avançada da Anthropic com raciocínio contextual.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Clipfly",
-      descricao: "Editor de vídeos curtos com automação de IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Clicopy",
-      descricao: "Gera textos e copywriting de alta conversão.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Code Quick",
-      descricao: "Auxilia desenvolvedores com dicas de código em tempo real.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Puxador de Dados (CPF, Telefone, E-mail)",
-      descricao: "Ferramenta para busca automatizada de dados públicos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Copy Generator",
-      descricao: "Gera textos publicitários e slogans de forma automática.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Cramly.AI",
-      descricao: "IA educacional para estudos, resumos e respostas rápidas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Cursos Dankicode",
-      descricao: "Plataforma de cursos online em marketing e tecnologia.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Designi",
-      descricao: "Cria designs rápidos para redes sociais e identidade visual.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Designrr (Ebook)",
-      descricao: "Gera eBooks e PDFs prontos a partir de textos e sites.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Dzine.AI",
-      descricao: "Gera designs personalizados e arte digital com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Epidemic Sound",
-      descricao:
-        "Biblioteca de músicas e efeitos sonoros livres de direitos autorais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Flaticon",
-      descricao: "Banco de ícones vetoriais para projetos gráficos e web.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Gemini (Pro)",
-      descricao:
-        "IA multimodal da Google com suporte a texto, imagem e raciocínio avançado.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Grok",
-      descricao:
-        "Assistente conversacional com humor e respostas inteligentes.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Gurukiller",
-      descricao:
-        "IA de automação e marketing para criação de conteúdo estratégico.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Inner.AI",
-      descricao:
-        "Assistente de autoaperfeiçoamento e produtividade pessoal com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Kalodata (Bra)",
-      descricao: "Banco de dados estatísticos e de mercado do Brasil.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Lumalabs",
-      descricao:
-        "Cria vídeos 3D e animações cinematográficas a partir de fotos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Midjourney (imagem)",
-      descricao: "Gera imagens artísticas e realistas por comandos de texto.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Motion Elements",
-      descricao:
-        "Banco de vídeos, templates e efeitos para editores e criadores.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Studios Monkey",
-      descricao:
-        "Ferramenta de IA para edição e criação de vídeos automatizada.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Pck Toolzbuy",
-      descricao: "Coleção de utilitários e ferramentas premium de automação.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Perplexity (Pro)",
-      descricao:
-        "Buscador com IA que oferece respostas contextualizadas e fontes.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Piclumen Pro",
-      descricao: "Cria retratos e imagens com realismo fotográfico via IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Pixlr.AI",
-      descricao: "Editor de imagens online com ferramentas inteligentes de IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Produtos Secretos",
-      descricao: "Coleção exclusiva de softwares e ferramentas digitais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Renderfores",
-      descricao: "Cria vídeos, logos e apresentações com templates prontos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Scribd",
-      descricao: "Plataforma de leitura e audiobooks sob demanda.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Spy Funnels",
-      descricao: "Analisa funis e páginas de vendas dos concorrentes.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Storyblocks",
-      descricao: "Biblioteca ilimitada de vídeos, músicas e animações.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Submagic (Podcast)",
-      descricao: "Gera legendas e cortes automáticos para podcasts.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Super IPTV (Séries & Filmes)",
-      descricao: "Streaming de séries e filmes premium ilimitado.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Turboscribe",
-      descricao: "Transcreve e resume áudios e vídeos automaticamente.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Unsplash",
-      descricao: "Banco de imagens gratuitas em alta resolução.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Vecteezy",
-      descricao: "Repositório de vetores, ícones e templates de design.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Videogen",
-      descricao: "Cria vídeos automáticos baseados em texto com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Vidiq",
-      descricao: "Ferramenta para SEO e otimização de canais no YouTube.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Vidtao",
-      descricao: "Analisa campanhas e anúncios em vídeo de concorrentes.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Vidu.AI",
-      descricao: "Gera vídeos personalizados com IA a partir de roteiros.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "ZDM Prime (Cursos)",
-      descricao: "Acesso a cursos e treinamentos digitais premium.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Podcastle",
-      descricao: "Grava, edita e publica podcasts com qualidade profissional.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Adobe Express",
-      descricao: "Design rápido e intuitivo para redes sociais e marketing.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Phrasly AI",
-      descricao: "Gera textos criativos e traduções automáticas com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "123RF",
-      descricao: "Banco de imagens, vídeos e áudio royalty-free.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Imgkits",
-      descricao:
-        "Editor online de imagens com IA e remoção automática de fundo.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Seoptimer",
-      descricao: "Auditoria de SEO e relatórios de performance de site.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Icon8",
-      descricao: "Coleção de ícones e ilustrações para uso profissional.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Craftly AI",
-      descricao: "Escreve textos e campanhas publicitárias com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Oocya",
-      descricao:
-        "Automação de postagens e geração de conteúdo para redes sociais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Pixelied",
-      descricao: "Editor de design gráfico online com templates prontos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Shutterstoc",
-      descricao: "Banco de imagens, vídeos e músicas profissionais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Smodin",
-      descricao: "Escrita, tradução e reescrita de textos com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "GPL Theme",
-      descricao: "Acesso a temas e plugins WordPress premium.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Jasper",
-      descricao: "Assistente de escrita criativa e marketing com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Nichess",
-      descricao: "Descobre nichos lucrativos e ideias de produtos digitais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Justdone",
-      descricao: "Gera ideias, títulos e textos com IA criativa.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Wordtune",
-      descricao: "Reescreve frases e melhora fluidez de textos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Netflix",
-      descricao: "Streaming de filmes, séries e documentários originais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Prime Video",
-      descricao: "Serviço de streaming da Amazon com produções exclusivas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Closer Copy",
-      descricao: "Gera textos de vendas com técnicas de copywriting avançado.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Lovepik",
-      descricao: "Banco de vetores, ícones e recursos visuais.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Unbounce",
-      descricao: "Cria landing pages otimizadas para conversão.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Rytr",
-      descricao: "Gera textos e e-mails automáticos com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Slidebean",
-      descricao: "Cria apresentações de slides com design automatizado.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Snapied",
-      descricao: "Ferramenta de captura e anotação de telas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Crello",
-      descricao: "Design online com modelos personalizáveis.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Skillshare",
-      descricao: "Plataforma de cursos criativos e técnicos online.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Lynda Com",
-      descricao: "Cursos profissionais de tecnologia, negócios e design.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Everand",
-      descricao: "Acesso a livros e audiobooks sob demanda.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Slideshare",
-      descricao: "Plataforma para compartilhar apresentações e documentos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Linguix",
-      descricao: "Correção gramatical e reescrita com IA contextual.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Word AI",
-      descricao: "Reescrita automática de textos com naturalidade humana.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Spin Rewriter",
-      descricao: "Cria múltiplas versões de textos para SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Pro Writing AI",
-      descricao: "Editor e revisor de textos com IA integrada.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Creaitor AI",
-      descricao: "Gera textos criativos para redes sociais e blogs.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Smart Copy",
-      descricao: "Cria mensagens publicitárias com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Story Base",
-      descricao: "Ajuda a criar narrativas e roteiros para conteúdo digital.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Spamzilla",
-      descricao: "Pesquisa domínios expirados e backlinks para SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Seobility",
-      descricao: "Análise e monitoramento de SEO para sites.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "SEO Site Checkup",
-      descricao: "Auditoria técnica de SEO e relatórios detalhados.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Viral Launch",
-      descricao: "Pesquisa de produtos e tendências para Amazon Sellers.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Sell The Trend",
-      descricao: "Descobre produtos em alta para dropshipping.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Backlink Repository",
-      descricao: "Banco de backlinks e métricas de autoridade.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Tuberanker",
-      descricao: "Análise e SEO para vídeos do YouTube.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Indexification",
-      descricao: "Serviço de indexação rápida de links e backlinks.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "SEO Tester Online",
-      descricao: "Analisa SEO on-page e off-page com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "SE Ranking",
-      descricao: "Monitoramento de posições e relatórios SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Search Atlas",
-      descricao: "Plataforma avançada de pesquisa e análise SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Majestic",
-      descricao: "Avalia backlinks e autoridade de domínios.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Spyfu",
-      descricao: "Análise de palavras-chave e estratégias de concorrentes.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Mangools",
-      descricao: "Pacote completo de ferramentas de SEO simples e rápidas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Similar Web",
-      descricao: "Analisa tráfego e estatísticas de sites.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Writer Zen",
-      descricao: "Planeja conteúdo e pesquisa de palavras-chave semânticas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Keyword",
-      descricao: "Descobre e organiza palavras-chave para SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Serpstat",
-      descricao: "Suite completa de SEO e marketing de conteúdo.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Semscoop",
-      descricao: "Descobre palavras-chave e analisa concorrência SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Moz Pro",
-      descricao: "Análise e otimização de autoridade de sites.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Answer The Public",
-      descricao: "Mostra perguntas populares de usuários em motores de busca.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Ubersuggest",
-      descricao: "Sugestões e métricas de SEO e palavras-chave.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Sem Rush",
-      descricao: "Análise completa de SEO, anúncios e marketing digital.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "AI Detector",
-      descricao: "Detecta textos gerados por IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "AI Humanizer",
-      descricao: "Transforma textos de IA em linguagem natural.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "SEO Tools",
-      descricao: "Coleção de ferramentas e verificadores SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Vmake",
-      descricao: "Gera vídeos automáticos de produtos e anúncios.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "ILove PDF",
-      descricao: "Edita, converte e organiza arquivos PDF online.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "PNGTree",
-      descricao: "Banco de PNGs e vetores para design gráfico.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "AI Wizard",
-      descricao: "Gera conteúdo e automações com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Videoscribe",
-      descricao: "Cria vídeos animados de estilo whiteboard.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Domo AI",
-      descricao: "Gera vídeos curtos e animações com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Cockatoo",
-      descricao: "Assistente de escrita criativa e storytelling.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Prezi AI",
-      descricao: "Apresentações interativas criadas com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Hailuo (Ultra)",
-      descricao: "IA multimodal para texto, imagem e som.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Nexusclips",
-      descricao: "Gera cortes e highlights automáticos de vídeos longos.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Dream AI",
-      descricao: "Criação de imagens artísticas com IA.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Forum Blackhat 2.0",
-      descricao: "Comunidade de growth e técnicas avançadas de SEO.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Wan A.I (Ilimitado)",
-      descricao: "Assistente IA ilimitado para tarefas automáticas.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Play HT (Clone Voz)",
-      descricao: "Gera vozes realistas e dublagens com clonagem vocal.",
-      color: "text-pink-400",
-    },
-    {
-      nome: "Baixar Design",
-      descricao:
-        "Plataforma para baixar modelos, templates e recursos gráficos prontos para uso.",
-      color: "text-pink-400",
-    }
-
-PLANO SUPER PREMIUM:
- {
       nome: "Sora 2 Pro",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
@@ -1366,7 +541,12 @@ PLANO SUPER PREMIUM:
       descricao: "Coleção de utilitários e ferramentas premium de automação.",
     },
     {
-      nome: "Perplexity (Pro e Max)",
+      nome: "Super Grok (Heavy)",
+      descricao:
+        "Melhoria do Grok imagine com gerações mais realistas que agora gera video com aúdio igual o Veo3.",
+    },
+    {
+      nome: "Perplexity (Max)",
       descricao:
         "Buscador com IA que oferece respostas contextualizadas e fontes.",
     },
@@ -1737,6 +917,12 @@ PLANO SUPER PREMIUM:
       descricao:
         "Ferramenta de edição e geração de vídeos ilimitados com inteligência artificial profissional.",
       color: "text-pink-400",
+    },
+    {
+      nome: "ElevenLabs",
+      descricao:
+        "A melhor I.A de clonagem de voz do mercado, possuindo o modelo mais avançado de text to speech(Eleven V3 Alpha).",
+        color: "text-pink-400",
     },
     {
       nome: "Perso AI (dublagem)",
@@ -3197,7 +2383,857 @@ PLANO SUPER PREMIUM:
       descricao:
         "Plataforma integrada ao plano Super Premium+ que reúne todos os principais modelos de chat do mercado (Claude, Grok, Gemini, LLaMA, ChatGPT, Mistral e muito mais), oferecendo conversação ilimitada com APIs oficiais, além de modos especiais como Batalha & Comparação entre modelos. Ative o modo 'Direct Chat' para utilização completa.",
       color: "text-pink-400",
-    }
+    },
+    {
+      nome: "Tubefy",
+      descricao:
+        "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
+      color: "text-pink-400",
+    },
+    {
+      nome: "QConcursos",
+      descricao:
+        "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
+      color: "text-pink-400",
+    },
+  
+  ];
+
+ Ferrramentas premium = [
+    {
+      nome: "Sora (Plus",
+      descricao: "Gera vídeos realistas com IA a partir de texto.",
+    },
+    {
+      nome: "Heygen (Team)",
+      descricao:
+        "Cria avatares falantes e vídeos automatizados com dublagem em múltiplos idiomas.",
+    },
+    {
+      nome: "Leonardo (Maestro)",
+      descricao: "Gera imagens artísticas detalhadas e estilosas por IA.",
+    },
+    {
+      nome: "Adsparo",
+      descricao: "Cria e otimiza anúncios automaticamente para redes sociais.",
+    },
+    {
+      nome: "Gamma App (Pro)",
+      descricao:
+        "Cria apresentações modernas e interativas de forma automática.",
+    },
+    {
+      nome: "CapCut Pro",
+      descricao:
+        "Editor de vídeo completo com efeitos premium e recursos avançados.",
+    },
+    {
+      nome: "Canva Pro",
+      descricao: "Design gráfico fácil com templates e recursos profissionais.",
+    },
+    {
+      nome: "ChatGPT (Plus)",
+      descricao: "Assistente de IA avançado para escrita, ideias e automações.",
+    },
+    {
+      nome: "Freepik",
+      descricao: "Banco de imagens, vetores e ícones de alta qualidade.",
+    },
+    {
+      nome: "DreamFace",
+      descricao: "Cria rostos e retratos realistas com IA.",
+    },
+    {
+      nome: "You.com",
+      descricao: "Buscador inteligente com IA e respostas contextuais.",
+    },
+    {
+      nome: "Grok",
+      descricao: "IA de conversação com foco em humor e respostas rápidas.",
+    },
+    {
+      nome: "Place It",
+      descricao: "Gera mockups, logos e vídeos promocionais automaticamente.",
+    },
+    {
+      nome: "Ideogram (Plus)",
+      descricao: "Gera imagens com tipografia criativa e realista.",
+    },
+    {
+      nome: "Vectorizer",
+      descricao: "Transforma imagens raster em vetores automaticamente.",
+    },
+    {
+      nome: "Sem Rush (Pro, Guru e Business)",
+      descricao: "Ferramenta de SEO e análise de tráfego profissional.",
+    },
+    {
+      nome: "Ubersuggest",
+      descricao: "Pesquisa palavras-chave e monitora concorrentes de SEO.",
+    },
+    {
+      nome: "SEO Site Checkup",
+      descricao: "Analisa o desempenho SEO completo de sites.",
+    },
+    {
+      nome: "Keyword Revealer",
+      descricao: "Descobre palavras-chave com alto potencial de ranqueamento.",
+    },
+    {
+      nome: "Moz Pro",
+      descricao: "Ferramenta de SEO com métricas de autoridade e backlinks.",
+    },
+    {
+      nome: "Spyfu",
+      descricao:
+        "Monitora e analisa estratégias de palavras-chave de concorrentes.",
+    },
+    {
+      nome: "Serpstat",
+      descricao: "Plataforma de SEO para análise e auditoria de sites.",
+    },
+    {
+      nome: "Envato Elements",
+      descricao: "Repositório com milhões de recursos criativos premium.",
+    },
+    {
+      nome: "Vistacreate",
+      descricao:
+        "Alternativa ao Canva com modelos profissionais e IA criativa.",
+    },
+    {
+      nome: "WordHero",
+      descricao:
+        "Gera textos e ideias de marketing com inteligência artificial.",
+    },
+    {
+      nome: "Frase IO",
+      descricao: "Otimiza conteúdo com base em SEO e intenção de busca.",
+    },
+    {
+      nome: "Grammarly",
+      descricao:
+        "Corrige gramática, estilo e clareza de textos automaticamente.",
+    },
+    {
+      nome: "Quillbot",
+      descricao: "Reformula textos e parafraseia com alta precisão.",
+    },
+    {
+      nome: "WordAI",
+      descricao: "Reescreve textos mantendo o sentido e naturalidade humana.",
+    },
+    {
+      nome: "Picsart",
+      descricao: "Editor de fotos e vídeos com filtros e IA criativa.",
+    },
+    {
+      nome: "Writerzen",
+      descricao: "Plataforma de pesquisa de palavras-chave e SEO semântica.",
+    },
+    {
+      nome: "Linguix",
+      descricao: "Assistente de escrita com foco em gramática e estilo.",
+    },
+    {
+      nome: "Wordtune",
+      descricao: "Melhora a clareza e o tom de textos de forma natural.",
+    },
+    {
+      nome: "Storybase",
+      descricao:
+        "Descobre tópicos e palavras-chave com base em intenção do usuário.",
+    },
+    {
+      nome: "Smodin",
+      descricao:
+        "Ferramenta multifuncional de IA para escrever, traduzir e resumir.",
+    },
+    {
+      nome: "LongTailPro",
+      descricao: "Gera ideias de palavras-chave long tail para SEO.",
+    },
+    {
+      nome: "Keyword Tool",
+      descricao:
+        "Encontra palavras-chave em múltiplas plataformas (Google, YouTube, etc).",
+    },
+    {
+      nome: "GrowthBar",
+      descricao:
+        "Cria conteúdo otimizado para SEO com inteligência artificial.",
+    },
+    {
+      nome: "Seoptimer",
+      descricao: "Auditoria SEO e análise de performance técnica do site.",
+    },
+    {
+      nome: "Ahrefs",
+      descricao: "Análise profunda de backlinks, SEO e concorrentes.",
+    },
+    {
+      nome: "Voice Clone",
+      descricao: "Clona vozes humanas realistas a partir de amostras de áudio.",
+    },
+    {
+      nome: "Digen AI",
+      descricao:
+        "Gera conteúdo digital completo com automação e inteligência artificial.",
+    },
+    {
+      nome: "A.I Song Generator",
+      descricao: "Cria músicas completas e letras com IA generativa.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Adworld Prime",
+      descricao: "Treinamentos e estratégias avançadas de marketing digital.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Aiease",
+      descricao: "Assistente de escrita e geração de respostas automáticas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Artsmart",
+      descricao: "Gera imagens e arte digital com IA generativa.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "BK Reviews",
+      descricao: "Analisa produtos e cria avaliações automáticas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Boolv.Video",
+      descricao: "Cria vídeos curtos automaticamente com base em textos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Captions",
+      descricao: "Adiciona legendas automáticas e sincronizadas em vídeos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Claude (Pro)",
+      descricao: "IA avançada da Anthropic com raciocínio contextual.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Clipfly",
+      descricao: "Editor de vídeos curtos com automação de IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Clicopy",
+      descricao: "Gera textos e copywriting de alta conversão.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Code Quick",
+      descricao: "Auxilia desenvolvedores com dicas de código em tempo real.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Puxador de Dados (CPF, Telefone, E-mail)",
+      descricao: "Ferramenta para busca automatizada de dados públicos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Copy Generator",
+      descricao: "Gera textos publicitários e slogans de forma automática.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Cramly.AI",
+      descricao: "IA educacional para estudos, resumos e respostas rápidas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Cursos Dankicode",
+      descricao: "Plataforma de cursos online em marketing e tecnologia.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Designi",
+      descricao: "Cria designs rápidos para redes sociais e identidade visual.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Designrr (Ebook)",
+      descricao: "Gera eBooks e PDFs prontos a partir de textos e sites.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Dzine.AI",
+      descricao: "Gera designs personalizados e arte digital com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Epidemic Sound",
+      descricao:
+        "Biblioteca de músicas e efeitos sonoros livres de direitos autorais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Flaticon",
+      descricao: "Banco de ícones vetoriais para projetos gráficos e web.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Gemini (Pro)",
+      descricao:
+        "IA multimodal da Google com suporte a texto, imagem e raciocínio avançado.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Grok",
+      descricao:
+        "Assistente conversacional com humor e respostas inteligentes.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Gurukiller",
+      descricao:
+        "IA de automação e marketing para criação de conteúdo estratégico.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Inner.AI",
+      descricao:
+        "Assistente de autoaperfeiçoamento e produtividade pessoal com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Kalodata (Bra)",
+      descricao: "Banco de dados estatísticos e de mercado do Brasil.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Lumalabs",
+      descricao:
+        "Cria vídeos 3D e animações cinematográficas a partir de fotos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Midjourney (imagem)",
+      descricao: "Gera imagens artísticas e realistas por comandos de texto.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Motion Elements",
+      descricao:
+        "Banco de vídeos, templates e efeitos para editores e criadores.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Studios Monkey",
+      descricao:
+        "Ferramenta de IA para edição e criação de vídeos automatizada.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Pck Toolzbuy",
+      descricao: "Coleção de utilitários e ferramentas premium de automação.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Perplexity (Pro)",
+      descricao:
+        "Buscador com IA que oferece respostas contextualizadas e fontes.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Piclumen Pro",
+      descricao: "Cria retratos e imagens com realismo fotográfico via IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Pixlr.AI",
+      descricao: "Editor de imagens online com ferramentas inteligentes de IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Produtos Secretos",
+      descricao: "Coleção exclusiva de softwares e ferramentas digitais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Renderfores",
+      descricao: "Cria vídeos, logos e apresentações com templates prontos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Scribd",
+      descricao: "Plataforma de leitura e audiobooks sob demanda.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Spy Funnels",
+      descricao: "Analisa funis e páginas de vendas dos concorrentes.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Storyblocks",
+      descricao: "Biblioteca ilimitada de vídeos, músicas e animações.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Submagic (Podcast)",
+      descricao: "Gera legendas e cortes automáticos para podcasts.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Super IPTV (Séries & Filmes)",
+      descricao: "Streaming de séries e filmes premium ilimitado.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Turboscribe",
+      descricao: "Transcreve e resume áudios e vídeos automaticamente.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Unsplash",
+      descricao: "Banco de imagens gratuitas em alta resolução.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vecteezy",
+      descricao: "Repositório de vetores, ícones e templates de design.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Videogen",
+      descricao: "Cria vídeos automáticos baseados em texto com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vidiq",
+      descricao: "Ferramenta para SEO e otimização de canais no YouTube.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vidtao",
+      descricao: "Analisa campanhas e anúncios em vídeo de concorrentes.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vidu.AI",
+      descricao: "Gera vídeos personalizados com IA a partir de roteiros.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "ZDM Prime (Cursos)",
+      descricao: "Acesso a cursos e treinamentos digitais premium.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Podcastle",
+      descricao: "Grava, edita e publica podcasts com qualidade profissional.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Adobe Express",
+      descricao: "Design rápido e intuitivo para redes sociais e marketing.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Phrasly AI",
+      descricao: "Gera textos criativos e traduções automáticas com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "123RF",
+      descricao: "Banco de imagens, vídeos e áudio royalty-free.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Imgkits",
+      descricao:
+        "Editor online de imagens com IA e remoção automática de fundo.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Seoptimer",
+      descricao: "Auditoria de SEO e relatórios de performance de site.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Icon8",
+      descricao: "Coleção de ícones e ilustrações para uso profissional.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Craftly AI",
+      descricao: "Escreve textos e campanhas publicitárias com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Oocya",
+      descricao:
+        "Automação de postagens e geração de conteúdo para redes sociais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Pixelied",
+      descricao: "Editor de design gráfico online com templates prontos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Shutterstoc",
+      descricao: "Banco de imagens, vídeos e músicas profissionais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Smodin",
+      descricao: "Escrita, tradução e reescrita de textos com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "GPL Theme",
+      descricao: "Acesso a temas e plugins WordPress premium.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Jasper",
+      descricao: "Assistente de escrita criativa e marketing com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Nichess",
+      descricao: "Descobre nichos lucrativos e ideias de produtos digitais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Justdone",
+      descricao: "Gera ideias, títulos e textos com IA criativa.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Wordtune",
+      descricao: "Reescreve frases e melhora fluidez de textos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Netflix",
+      descricao: "Streaming de filmes, séries e documentários originais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Prime Video",
+      descricao: "Serviço de streaming da Amazon com produções exclusivas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Closer Copy",
+      descricao: "Gera textos de vendas com técnicas de copywriting avançado.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Lovepik",
+      descricao: "Banco de vetores, ícones e recursos visuais.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Unbounce",
+      descricao: "Cria landing pages otimizadas para conversão.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Rytr",
+      descricao: "Gera textos e e-mails automáticos com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Slidebean",
+      descricao: "Cria apresentações de slides com design automatizado.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Snapied",
+      descricao: "Ferramenta de captura e anotação de telas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Crello",
+      descricao: "Design online com modelos personalizáveis.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Skillshare",
+      descricao: "Plataforma de cursos criativos e técnicos online.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Lynda Com",
+      descricao: "Cursos profissionais de tecnologia, negócios e design.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Everand",
+      descricao: "Acesso a livros e audiobooks sob demanda.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Slideshare",
+      descricao: "Plataforma para compartilhar apresentações e documentos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Linguix",
+      descricao: "Correção gramatical e reescrita com IA contextual.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Word AI",
+      descricao: "Reescrita automática de textos com naturalidade humana.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Spin Rewriter",
+      descricao: "Cria múltiplas versões de textos para SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Pro Writing AI",
+      descricao: "Editor e revisor de textos com IA integrada.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Creaitor AI",
+      descricao: "Gera textos criativos para redes sociais e blogs.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Smart Copy",
+      descricao: "Cria mensagens publicitárias com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Story Base",
+      descricao: "Ajuda a criar narrativas e roteiros para conteúdo digital.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Spamzilla",
+      descricao: "Pesquisa domínios expirados e backlinks para SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Seobility",
+      descricao: "Análise e monitoramento de SEO para sites.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "SEO Site Checkup",
+      descricao: "Auditoria técnica de SEO e relatórios detalhados.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Viral Launch",
+      descricao: "Pesquisa de produtos e tendências para Amazon Sellers.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Sell The Trend",
+      descricao: "Descobre produtos em alta para dropshipping.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Backlink Repository",
+      descricao: "Banco de backlinks e métricas de autoridade.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Tuberanker",
+      descricao: "Análise e SEO para vídeos do YouTube.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Indexification",
+      descricao: "Serviço de indexação rápida de links e backlinks.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "SEO Tester Online",
+      descricao: "Analisa SEO on-page e off-page com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "SE Ranking",
+      descricao: "Monitoramento de posições e relatórios SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Search Atlas",
+      descricao: "Plataforma avançada de pesquisa e análise SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Majestic",
+      descricao: "Avalia backlinks e autoridade de domínios.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Spyfu",
+      descricao: "Análise de palavras-chave e estratégias de concorrentes.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Mangools",
+      descricao: "Pacote completo de ferramentas de SEO simples e rápidas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Similar Web",
+      descricao: "Analisa tráfego e estatísticas de sites.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Writer Zen",
+      descricao: "Planeja conteúdo e pesquisa de palavras-chave semânticas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Keyword",
+      descricao: "Descobre e organiza palavras-chave para SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Serpstat",
+      descricao: "Suite completa de SEO e marketing de conteúdo.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Semscoop",
+      descricao: "Descobre palavras-chave e analisa concorrência SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Moz Pro",
+      descricao: "Análise e otimização de autoridade de sites.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Answer The Public",
+      descricao: "Mostra perguntas populares de usuários em motores de busca.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Ubersuggest",
+      descricao: "Sugestões e métricas de SEO e palavras-chave.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Sem Rush",
+      descricao: "Análise completa de SEO, anúncios e marketing digital.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "AI Detector",
+      descricao: "Detecta textos gerados por IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "AI Humanizer",
+      descricao: "Transforma textos de IA em linguagem natural.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "SEO Tools",
+      descricao: "Coleção de ferramentas e verificadores SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vmake",
+      descricao: "Gera vídeos automáticos de produtos e anúncios.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "ILove PDF",
+      descricao: "Edita, converte e organiza arquivos PDF online.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "PNGTree",
+      descricao: "Banco de PNGs e vetores para design gráfico.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "AI Wizard",
+      descricao: "Gera conteúdo e automações com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Videoscribe",
+      descricao: "Cria vídeos animados de estilo whiteboard.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Domo AI",
+      descricao: "Gera vídeos curtos e animações com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Cockatoo",
+      descricao: "Assistente de escrita criativa e storytelling.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Prezi AI",
+      descricao: "Apresentações interativas criadas com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Hailuo (Ultra)",
+      descricao: "IA multimodal para texto, imagem e som.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Nexusclips",
+      descricao: "Gera cortes e highlights automáticos de vídeos longos.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Dream AI",
+      descricao: "Criação de imagens artísticas com IA.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Forum Blackhat 2.0",
+      descricao: "Comunidade de growth e técnicas avançadas de SEO.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Wan A.I (Ilimitado)",
+      descricao: "Assistente IA ilimitado para tarefas automáticas.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Play HT (Clone Voz)",
+      descricao: "Gera vozes realistas e dublagens com clonagem vocal.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Baixar Design",
+      descricao:
+        "Plataforma para baixar modelos, templates e recursos gráficos prontos para uso.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Tubefy",
+      descricao:
+        "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
+      color: "text-pink-400",
+    },
+    {
+      nome: "QConcursos",
+      descricao:
+        "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
+      color: "text-pink-400",
+    },
 
 ===================================================================
 REGRAS DE AUTENTICAÇÃO
