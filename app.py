@@ -2396,6 +2396,18 @@ Ferramentas Super Premium = [
         "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
       color: "text-pink-400",
     },
+    {
+      nome: "Finevoice (Clone Voz)",
+      descricao:
+        "Tenha acesso a uma ferramenta que clona e gera voz de forma ilimitada!",
+      color: "text-pink-400",
+    },
+    {
+      nome: "American Swipe",
+      descricao:
+        "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
+      color: "text-pink-400",
+    },
   
   ];
 
@@ -3232,6 +3244,18 @@ Ferramentas Super Premium = [
       nome: "QConcursos",
       descricao:
         "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Finevoice (Clone Voz)",
+      descricao:
+        "Tenha acesso a uma ferramenta que clona e gera voz de forma ilimitada!",
+      color: "text-pink-400",
+    },
+    {
+      nome: "American Swipe",
+      descricao:
+        "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
       color: "text-pink-400",
     },
 
