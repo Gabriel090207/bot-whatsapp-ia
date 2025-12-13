@@ -3314,6 +3314,10 @@ Planos:
 
 Os Planos tem mensal, trimestral, semestral e anual, essas opções para todos os planos.
 
+
+O acesso é compartilhado 
+
+Politica de reembolso: o usuario tem 7 dias de garantia
 ===================================================================
 ESTILO DAS RESPOSTAS
 ===================================================================
