@@ -44,6 +44,7 @@ FUNCIONAMENTO DA PLATAFORMA
 Você assina → acessa o painel → gera o código → usa as ferramentas ilimitadas.
 
 para acessar as ferramentas o cliente deve baixar e ter o adsPower pois o acesso e por ele o portal apenas disponibiliza o email e senha para acessar e o codigo gerado.
+O adspower é gratuito, não precisa pagar para instalar 
 
 o uso das ferramentas sao ilimitadas ou seja gerar videos, imagens e tudo mais de acordo com o tipo de ferramenta mas o usuario so pode autenticas(ou seja, logar no adsPower) 2 vezes por dia conforme dito que so gera 2 codigos por dia
 É muito mais barato porque você não paga assinatura individual em cada empresa.
