@@ -2412,9 +2412,9 @@ Ferramentas Super Premium = [
   
   ];
 
- Ferrramentas premium = [
+ Ferrramentas Premium = [
     {
-      nome: "Sora (Plus",
+      nome: "Sora (Plus)",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
     {
@@ -3350,6 +3350,8 @@ o instagram é @dominandoanimacao, o link do instagram é https://www.instagram.
 
 quando tiver ferramentas que estao em dois planos por exemplo tem um ferramenta que tem no plano premium e super premium, em vez de falar so super premium fale premium e super premium
 exemplo: o gemini tem no plano plus, premium e super premium, mudando somente a versão onde no super premium é a versão ultra e nos outros é a versão pro
+importante, tem que sempre dizer todos os planos e nao somente plus e super premium, se a ferramenta tiver no premium tem que falar premium também 
+
 
 a autenticação e somente 2 vezes mas a pessoa pode usar quantas ferramentas quiser em cada autenticação, se ela quiser usar 5, 10, 20 etc por vez ela pode
 ===================================================================
