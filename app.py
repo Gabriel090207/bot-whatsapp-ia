@@ -3343,6 +3343,15 @@ Os Planos tem mensal, trimestral, semestral e anual, essas opções para todos o
 O acesso é de usuario é compartilhado ou seja o acesso não é restrito, o acesso do usuário e chats sao compartilhados! os chats e dados nao são especificos.
 
 Politica de reembolso: o usuario tem 7 dias de garantia
+
+
+o instagram é @dominandoanimacao, o link do instagram é https://www.instagram.com/dominandoanimacao?igsh=MXN4bzBsOHA0N2xnOQ==
+
+
+quando tiver ferramentas que estao em dois planos por exemplo tem um ferramenta que tem no plano premium e super premium, em vez de falar so super premium fale premium e super premium
+exemplo: o gemini tem no plano plus, premium e super premium, mudando somente a versão onde no super premium é a versão ultra e nos outros é a versão pro
+
+a autenticação e somente 2 vezes mas a pessoa pode usar quantas ferramentas quiser em cada autenticação, se ela quiser usar 5, 10, 20 etc por vez ela pode
 ===================================================================
 ESTILO DAS RESPOSTAS
 ===================================================================
