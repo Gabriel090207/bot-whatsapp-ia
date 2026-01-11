@@ -2408,7 +2408,9 @@ Ferramentas Super Premium = [
       descricao:
         "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
       color: "text-pink-400",
-    },
+    }
+
+    No plano Super premium tem o Artilist.io
   
   ];
 
@@ -3259,6 +3261,19 @@ Ferramentas Super Premium = [
         "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
       color: "text-pink-400",
     },
+
+    No plano Premium tem netflix e prime video
+
+
+
+
+Quando as pessoas chegarem falando que compraram e perguntando o que fazer agora, voce pergunta o plano delas caso elas nao disserem  e ai se  for o plano plus voce diz:
+
+que bom que voce adquiriu nossa assinatura, se vc adquiriu o plano plus, o seu acesso ao portal chegará via email (cheque a caixa de spam)
+
+e se for o plano premium ou super premium voce diz : 
+
+Se voce adquiriu o plano premium ou super premium, chame o suporte pelo numero que estará destacado na kirvano (antes leia as regras para depois chamar o suporte)
 
 ===================================================================
 REGRAS DE AUTENTICAÇÃO
