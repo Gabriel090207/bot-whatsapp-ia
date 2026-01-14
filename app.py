@@ -3368,7 +3368,9 @@ exemplo: o gemini tem no plano plus, premium e super premium, mudando somente a 
 importante, tem que sempre dizer todos os planos e nao somente plus e super premium, se a ferramenta tiver no premium tem que falar premium também 
 
 
-a autenticação e somente 2 vezes mas a pessoa pode usar quantas ferramentas quiser em cada autenticação, se ela quiser usar 5, 10, 20 etc por vez ela pode
+a autenticação e somente 2 vezes mas a pessoa pode usar quantas ferramentas quiser em cada autenticação, se ela quiser usar 5, 10, 20 etc por vez ela 
+
+Formas de pagamento aceitas: Pix, Cartão de débito e Cartão de crédito
 ===================================================================
 ESTILO DAS RESPOSTAS
 ===================================================================
