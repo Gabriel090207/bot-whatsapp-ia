@@ -232,7 +232,8 @@ Ferramentas Plano Plus = [
     },
   ];
 
-Ferramentas Super Premium = [
+
+Ferramentas Plano Super Premium = [
     {
       nome: "Sora 2 Pro",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
@@ -907,11 +908,10 @@ Ferramentas Super Premium = [
       descricao:
         "Plataforma para baixar modelos, templates e recursos gráficos prontos para uso.",
     },
-    {
-      nome: "Creatify",
+      {
+      nome: "Venice AI",
       descricao:
-        "Plataforma avançada de criação de vídeos e anúncios com IA, oferecendo resultados superiores ao InVideo.",
-      color: "text-pink-400",
+        "Nova i.a de chat parecida com o chatgpt, so que contendo muito mais recursos como criação de imagem sem censura, remover background, upscale e enhance, analisar arquivos e muito mais.",
     },
     {
       nome: "Runway (ilimitado)",
@@ -924,6 +924,12 @@ Ferramentas Super Premium = [
       descricao:
         "A melhor I.A de clonagem de voz do mercado, possuindo o modelo mais avançado de text to speech(Eleven V3 Alpha).",
         color: "text-pink-400",
+    },
+    {
+      nome: "A.I Make Song",
+      descricao:
+        "Varios estilos de geração como Lyrics to Song, Text to Song, Song Cover, Vocal Remover e Entre Outros",
+          color: "text-pink-400",
     },
     {
       nome: "Perso AI (dublagem)",
@@ -2145,12 +2151,6 @@ Ferramentas Super Premium = [
       color: "text-pink-400",
     },
     {
-      nome: "Veed IO (parecido com InVideo)",
-      descricao:
-        "Editor de vídeo intuitivo que cria e edita vídeos com recursos de IA.",
-      color: "text-pink-400",
-    },
-    {
       nome: "Gencraft",
       descricao:
         "Gera imagens artísticas e cenas criativas com base em descrições textuais.",
@@ -2255,7 +2255,7 @@ Ferramentas Super Premium = [
       color: "text-pink-400",
     },
     {
-      nome: "Veo 3 (ilimitado)",
+      nome: "Flow - Veo 3 (ilimitado)",
       descricao:
         "Gera vídeos cinematográficos com IA avançada e qualidade profissional.",
       color: "text-pink-400",
@@ -2408,15 +2408,37 @@ Ferramentas Super Premium = [
       descricao:
         "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
       color: "text-pink-400",
-    }
-
-    No plano Super premium tem o Artilist.io
+    },
+    {
+      nome: "Whisky (Nano Banana Pro)",
+      descricao:
+        "Agora é possível gerar pelo Nano Banana direto da fonte",
+      color: "text-pink-400",
+    },
+    {
+      nome: "SeeArt.AI (+18)",
+      descricao:
+        "Possui gerações ilimitadas de imagens (modo geração gratuita) que so tem nos planos mais caros do site. ",
+      color: "text-pink-400",
+    },
+    {
+      nome: "ElevenReader",
+      descricao:
+        "O ElevenReader consegue narrar qualquer tipo de ebook, seja pdf, url, ou ate mesmo escrito.",
+      color: "text-pink-400",
+    },
+    {
+      nome: "Vyral",
+      descricao:
+        "A Vyral é uma ferramenta estratégica para quem vende no TikTok Shop, focada em descobrir vídeos e produtos que JÁ estão vendendo todos os dias — antes de você perder tempo testando no escuro.",
+      color: "text-pink-400",
+    },
   
   ];
 
- Ferrramentas Premium = [
+Ferramentas Plano Premium = [
     {
-      nome: "Sora (Plus)",
+      nome: "Sora (Plus",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
     {
@@ -2594,6 +2616,12 @@ Ferramentas Super Premium = [
       nome: "Digen AI",
       descricao:
         "Gera conteúdo digital completo com automação e inteligência artificial.",
+    },
+     {
+      nome: "Venice AI",
+      descricao:
+        "Nova i.a de chat parecida com o chatgpt, so que contendo muito mais recursos como criação de imagem sem censura, remover background, upscale e enhance, analisar arquivos e muito mais.",
+      color: "text-pink-400",
     },
     {
       nome: "A.I Song Generator",
@@ -3261,11 +3289,16 @@ Ferramentas Super Premium = [
         "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
       color: "text-pink-400",
     },
+    {
+      nome: "A.I Make Song",
+      descricao:
+        "Varios estilos de geração como Lyrics to Song, Text to Song, Song Cover, Vocal Remover e Entre Outros",
+      color: "text-pink-400",
+    },
 
-    No plano Premium tem netflix e prime video
 
 
-
+quando alguem perguntar do higgsfield, fala pro bot falar que ele é ilimitado o modelo kling 2.5 turbo e as gerações de imagem. (Motion control não esta incluído).
 
 Quando as pessoas chegarem falando que compraram e perguntando o que fazer agora, voce pergunta o plano delas caso elas nao disserem  e ai se  for o plano plus voce diz:
 
