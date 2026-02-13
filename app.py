@@ -2433,6 +2433,13 @@ Ferramentas Plano Super Premium = [
         "A Vyral é uma ferramenta estratégica para quem vende no TikTok Shop, focada em descobrir vídeos e produtos que JÁ estão vendendo todos os dias — antes de você perder tempo testando no escuro.",
       color: "text-pink-400",
     },
+
+    {
+  nome: "Motion Control",
+  descricao:
+    "O Motion Control permite criar e controlar movimentos cinematográficos em vídeos e cenas com precisão, facilitando a produção de conteúdos dinâmicos e profissionais sem precisar de animação manual complexa.",
+  color: "text-pink-400",
+},
   
   ];
 
@@ -3332,6 +3339,18 @@ Se o usuário perguntar:
 
 “Tem tokens?”
 → “Não usamos tokens. Aqui tudo é ilimitado, porque tokens não funcionariam num sistema de rateio.”
+
+
+===================================================================
+QUANDO PERGUNTAREM SOBRE O HIGGSFIELD
+===================================================================
+Sempre responda que:
+
+• O Higgsfield possui Kling 2.5 Turbo ilimitado.
+• Possui gerações de imagem ilimitadas.
+• Motion Control existe na plataforma, porém não está incluído dentro do Higgsfield.
+
+Explique de forma natural e curta.
 
 ===================================================================
 QUANDO O USUÁRIO PERGUNTAR SOBRE FERRAMENTAS
