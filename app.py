@@ -232,8 +232,7 @@ Ferramentas Plano Plus = [
     },
   ];
 
-
-Ferramentas Plano Super Premium = [
+Ferramentas Plano Super Premium  = [
     {
       nome: "Sora 2 Pro",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
@@ -510,11 +509,7 @@ Ferramentas Plano Super Premium = [
       descricao:
         "IA de automação e marketing para criação de conteúdo estratégico.",
     },
-    {
-      nome: "Inner.AI",
-      descricao:
-        "Assistente de autoaperfeiçoamento e produtividade pessoal com IA.",
-    },
+   
     {
       nome: "Kalodata (EUA, Ale, UK, Esp, Fran, Ital, Bra)",
       descricao: "Banco de dados estatísticos e de mercado do Brasil.",
@@ -600,10 +595,7 @@ Ferramentas Plano Super Premium = [
       nome: "Vecteezy",
       descricao: "Repositório de vetores, ícones e templates de design.",
     },
-    {
-      nome: "Videogen",
-      descricao: "Cria vídeos automáticos baseados em texto com IA.",
-    },
+   
     {
       nome: "Vidiq",
       descricao: "Ferramenta para SEO e otimização de canais no YouTube.",
@@ -913,6 +905,37 @@ Ferramentas Plano Super Premium = [
       descricao:
         "Nova i.a de chat parecida com o chatgpt, so que contendo muito mais recursos como criação de imagem sem censura, remover background, upscale e enhance, analisar arquivos e muito mais.",
     },
+
+    {
+  nome: "Crunchyroll",
+  descricao:
+    "Assista animes, séries e filmes em alta qualidade direto pelo painel do Dominando Animação.",
+},
+{
+  nome: "Spotify",
+  descricao:
+    "Ouça suas músicas favoritas, playlists e podcasts enquanto trabalha direto pelo painel.",
+},
+{
+  nome: "Apple TV+",
+  descricao:
+    "Assista séries e filmes exclusivos em alta qualidade direto pelo painel.",
+     color: "text-pink-400",
+
+  },
+{
+  nome: "Prime Video",
+  descricao:
+    "Explore filmes, séries e conteúdos exclusivos diretamente pelo painel.",
+     color: "text-pink-400",
+
+  },
+{
+  nome: "Netflix Premium+",
+  descricao:
+    "Assista seus filmes e séries favoritos com qualidade premium direto pelo painel.",
+    color: "text-pink-400",
+},
     {
       nome: "Runway (ilimitado)",
       descricao:
@@ -2267,9 +2290,9 @@ Ferramentas Plano Super Premium = [
       color: "text-pink-400",
     },
     {
-      nome: "Higgsfield (team)",
+      nome: "Higgsfield (Creator)",
       descricao:
-        "Plataforma de geração ilimitada de imagem.",
+        "Plataforma de geração de imagens ilimitadas e video usando o modelo kling 2.5 turbo",
       color: "text-pink-400",
     },
     {
@@ -2356,11 +2379,7 @@ Ferramentas Plano Super Premium = [
         "Gera imagens artísticas e realistas com inteligência artificial ilimitada.",
       color: "text-pink-400",
     },
-    {
-      nome: "Manus AI (ilimitado)",
-      descricao: "Gera textos criativos e técnicos com suporte avançado de IA.",
-      color: "text-pink-400",
-    },
+ 
     {
       nome: "Skynet (chat sem censura)",
       descricao:
@@ -2404,12 +2423,6 @@ Ferramentas Plano Super Premium = [
       color: "text-pink-400",
     },
     {
-      nome: "American Swipe",
-      descricao:
-        "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
-      color: "text-pink-400",
-    },
-    {
       nome: "Whisky (Nano Banana Pro)",
       descricao:
         "Agora é possível gerar pelo Nano Banana direto da fonte",
@@ -2433,14 +2446,33 @@ Ferramentas Plano Super Premium = [
         "A Vyral é uma ferramenta estratégica para quem vende no TikTok Shop, focada em descobrir vídeos e produtos que JÁ estão vendendo todos os dias — antes de você perder tempo testando no escuro.",
       color: "text-pink-400",
     },
-
+  
     {
   nome: "Motion Control",
   descricao:
     "O Motion Control permite criar e controlar movimentos cinematográficos em vídeos e cenas com precisão, facilitando a produção de conteúdos dinâmicos e profissionais sem precisar de animação manual complexa.",
   color: "text-pink-400",
 },
-  
+{
+  nome: "Glam AI",
+  descricao:
+    "Uma plataforma de IA completa com os melhores modelos de geração de imagens e vídeos. Imagens ilimitadas: Glam AI, Seedream 5.0, Nano Banana 2, Nano Banana Pro, Kling 3, Flux Pro, Recraft V4. Vídeos ilimitados: Glam AI, Grok, Kling 3.0, Sora 2 Pro, Seedance 1.0 Pro, Flow Veo 3.1, Wan 2.5, Higgsfield DOP, Hailuo, Kling AI 2.6 Motion Control.",
+  color: "text-pink-400",
+},
+
+{
+  nome: "Seedance 2.0",
+  descricao:
+    "Modelo avançado de IA focado na geração de vídeos de alta qualidade com movimentos realistas e consistência cinematográfica. Oferece controle refinado de cena, animação fluida, interpretação precisa de prompts e suporte a estilos variados — ideal para criação de conteúdos visuais profissionais e criativos.",
+  color: "text-pink-400",
+},
+ {
+      nome: "Lovable (ilimitado) ",
+      descricao: "Permite você criar sites, landing page, fazer programação, tudo isso de forma ILIMITADA pela nossa extensã",
+      color: "text-pink-400",
+    },
+
+
   ];
 
 Ferramentas Plano Premium = [
@@ -2749,12 +2781,7 @@ Ferramentas Plano Premium = [
         "IA de automação e marketing para criação de conteúdo estratégico.",
       color: "text-pink-400",
     },
-    {
-      nome: "Inner.AI",
-      descricao:
-        "Assistente de autoaperfeiçoamento e produtividade pessoal com IA.",
-      color: "text-pink-400",
-    },
+    
     {
       nome: "Kalodata (Bra)",
       descricao: "Banco de dados estatísticos e de mercado do Brasil.",
@@ -2854,11 +2881,7 @@ Ferramentas Plano Premium = [
       descricao: "Repositório de vetores, ícones e templates de design.",
       color: "text-pink-400",
     },
-    {
-      nome: "Videogen",
-      descricao: "Cria vídeos automáticos baseados em texto com IA.",
-      color: "text-pink-400",
-    },
+    
     {
       nome: "Vidiq",
       descricao: "Ferramenta para SEO e otimização de canais no YouTube.",
@@ -3291,17 +3314,23 @@ Ferramentas Plano Premium = [
       color: "text-pink-400",
     },
     {
-      nome: "American Swipe",
-      descricao:
-        "Tenha acesso a uma ferramenta de espionagem de ofertas e criativos escalados no Facebook e Youtube!",
-      color: "text-pink-400",
-    },
-    {
       nome: "A.I Make Song",
       descricao:
         "Varios estilos de geração como Lyrics to Song, Text to Song, Song Cover, Vocal Remover e Entre Outros",
       color: "text-pink-400",
     },
+    {
+  nome: "Crunchyroll",
+  descricao:
+    "Assista animes, séries e filmes em alta qualidade direto pelo painel do Dominando Animação.",
+  color: "text-pink-400",
+},
+{
+  nome: "Spotify",
+  descricao:
+    "Ouça suas músicas favoritas, playlists e podcasts enquanto trabalha direto pelo painel.",
+  color: "text-pink-400",
+},
 
 
 
