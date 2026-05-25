@@ -865,7 +865,7 @@ Ferramentas Plano Super Premium  = [
       nome: "Videoscribe",
       descricao: "Cria vídeos animados de estilo whiteboard.",
     },
-    { nome: "Domo AI", descricao: "Gera vídeos curtos e animações com IA." },
+   
     {
       nome: "Cockatoo",
       descricao: "Assistente de escrita criativa e storytelling.",
@@ -936,12 +936,6 @@ Ferramentas Plano Super Premium  = [
     "Assista seus filmes e séries favoritos com qualidade premium direto pelo painel.",
     color: "text-pink-400",
 },
-    {
-      nome: "Runway (ilimitado)",
-      descricao:
-        "Ferramenta de edição e geração de vídeos ilimitados com inteligência artificial profissional.",
-      color: "text-pink-400",
-    },
     {
       nome: "ElevenLabs",
       descricao:
@@ -1994,12 +1988,6 @@ Ferramentas Plano Super Premium  = [
       color: "text-pink-400",
     },
     {
-      nome: "Meshy",
-      descricao:
-        "Gera modelos 3D e texturas automaticamente usando inteligência artificial.",
-      color: "text-pink-400",
-    },
-    {
       nome: "Scite AI",
       descricao:
         "Analisa e valida citações acadêmicas com IA para garantir precisão científica.",
@@ -2410,12 +2398,7 @@ Ferramentas Plano Super Premium  = [
         "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
       color: "text-pink-400",
     },
-    {
-      nome: "QConcursos",
-      descricao:
-        "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
-      color: "text-pink-400",
-    },
+  
     {
       nome: "Finevoice (Clone Voz)",
       descricao:
@@ -3244,11 +3227,7 @@ Ferramentas Plano Premium = [
       descricao: "Cria vídeos animados de estilo whiteboard.",
       color: "text-pink-400",
     },
-    {
-      nome: "Domo AI",
-      descricao: "Gera vídeos curtos e animações com IA.",
-      color: "text-pink-400",
-    },
+
     {
       nome: "Cockatoo",
       descricao: "Assistente de escrita criativa e storytelling.",
@@ -3301,12 +3280,7 @@ Ferramentas Plano Premium = [
         "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
       color: "text-pink-400",
     },
-    {
-      nome: "QConcursos",
-      descricao:
-        "Tenha acesso a cursos, mapas mentais e simulados para ficar sempre a frente de seus concursos!",
-      color: "text-pink-400",
-    },
+    
     {
       nome: "Finevoice (Clone Voz)",
       descricao:
