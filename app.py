@@ -2423,12 +2423,6 @@ Ferramentas Plano Super Premium  = [
         "O ElevenReader consegue narrar qualquer tipo de ebook, seja pdf, url, ou ate mesmo escrito.",
       color: "text-pink-400",
     },
-    {
-      nome: "Vyral",
-      descricao:
-        "A Vyral é uma ferramenta estratégica para quem vende no TikTok Shop, focada em descobrir vídeos e produtos que JÁ estão vendendo todos os dias — antes de você perder tempo testando no escuro.",
-      color: "text-pink-400",
-    },
   
     {
   nome: "Motion Control",
