@@ -58,11 +58,7 @@ Ferramentas Plano Plus = [
       nome: "Sora (Plus)",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
-    {
-      nome: "Heygen (Creator)",
-      descricao:
-        "Cria avatares falantes e vídeos automatizados com dublagem em múltiplos idiomas.",
-    },
+  
     {
       nome: "Leonardo (Artisan)",
       descricao: "Gera imagens artísticas detalhadas e estilosas por IA.",
@@ -237,11 +233,7 @@ Ferramentas Plano Super Premium  = [
       nome: "Sora 2 Pro",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
-    {
-      nome: "Heygen (Team)",
-      descricao:
-        "Cria avatares falantes e vídeos automatizados com dublagem em múltiplos idiomas.",
-    },
+    
     {
       nome: "Leonardo (Maestro)",
       descricao: "Gera imagens artísticas detalhadas e estilosas por IA.",
@@ -2457,11 +2449,7 @@ Ferramentas Plano Premium = [
       nome: "Sora (Plus",
       descricao: "Gera vídeos realistas com IA a partir de texto.",
     },
-    {
-      nome: "Heygen (Team)",
-      descricao:
-        "Cria avatares falantes e vídeos automatizados com dublagem em múltiplos idiomas.",
-    },
+  
     {
       nome: "Leonardo (Maestro)",
       descricao: "Gera imagens artísticas detalhadas e estilosas por IA.",
