@@ -2442,6 +2442,32 @@ Ferramentas Plano Super Premium  = [
     },
 
 
+     {
+  nome: "Meshy AI",
+  descricao: "Permite criar modelos 3D, texturas e assets incríveis usando inteligência artificial, transformando textos e imagens em conteúdos prontos para jogos, animações e projetos criativos.",
+  color: "text-pink-400",
+},
+
+{
+  nome: "Clipto AI",
+  descricao: "Transcreva áudios e vídeos com alta precisão usando IA, gerando textos, legendas e resumos automaticamente para aumentar sua produtividade.",
+  color: "text-pink-400",
+},
+
+{
+  nome: "DeepL",
+  descricao: "Traduza textos com qualidade profissional para diversos idiomas usando uma das inteligências artificiais de tradução mais avançadas do mundo.",
+  color: "text-pink-400",
+},
+ 
+
+{
+  nome: "SeaArt AI",
+  descricao: "Crie imagens incríveis com inteligência artificial a partir de textos, explorando estilos artísticos, personagens, ilustrações e designs de forma rápida e ilimitada.",
+  color: "text-pink-400",
+},
+
+
   ];
 
 Ferramentas Plano Premium = [
@@ -3286,6 +3312,25 @@ Ferramentas Plano Premium = [
   descricao:
     "Ouça suas músicas favoritas, playlists e podcasts enquanto trabalha direto pelo painel.",
   color: "text-pink-400",
+
+  {
+  nome: "Clipto AI",
+  descricao: "Transcreva áudios e vídeos com alta precisão usando IA, gerando textos, legendas e resumos automaticamente para aumentar sua produtividade.",
+  color: "text-pink-400",
+},
+
+{
+  nome: "DeepL",
+  descricao: "Traduza textos com qualidade profissional para diversos idiomas usando uma das inteligências artificiais de tradução mais avançadas do mundo.",
+  color: "text-pink-400",
+},
+ 
+
+{
+  nome: "SeaArt AI",
+  descricao: "Crie imagens incríveis com inteligência artificial a partir de textos, explorando estilos artísticos, personagens, ilustrações e designs de forma rápida e ilimitada.",
+  color: "text-pink-400",
+},
 },
 
 
