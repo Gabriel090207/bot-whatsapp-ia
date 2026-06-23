@@ -1402,12 +1402,8 @@ Ferramentas Plano Super Premium  = [
         "Gera conteúdo de alta conversão com inteligência artificial avançada.",
       color: "text-pink-400",
     },
-    {
-      nome: "Steven AI",
-      descricao:
-        "Cria vídeos com avatares e narrações realistas baseados em texto.",
-      color: "text-pink-400",
-    },
+   
+   
     {
       nome: "Linksindexer",
       descricao:
@@ -1991,12 +1987,7 @@ Ferramentas Plano Super Premium  = [
         "Assistente de perguntas e respostas que fornece explicações inteligentes e resumidas.",
       color: "text-pink-400",
     },
-    {
-      nome: "Synthesia",
-      descricao:
-        "Cria vídeos com apresentadores virtuais realistas gerados por IA.",
-      color: "text-pink-400",
-    },
+   
     {
       nome: "Vidtoons",
       descricao:
