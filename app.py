@@ -2272,10 +2272,10 @@ Ferramentas Plano Super Premium  = [
         "Plataforma de geração de conteúdo multimídia com uso ilimitado de IA.",
       color: "text-pink-400",
     },
-    {
-      nome: "Synthesys",
+     {
+      nome: "Synthesia",
       descricao:
-        "Plataforma de geração ilimitada de avatar, com clonagem e geração de voz ilimitada.",
+        "Cria vídeos com apresentadores virtuais realistas gerados por IA.",
       color: "text-pink-400",
     },
     {
