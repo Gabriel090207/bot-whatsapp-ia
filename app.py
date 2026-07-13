@@ -2375,12 +2375,7 @@ Ferramentas Plano Super Premium  = [
         "Plataforma integrada ao plano Super Premium+ que reúne todos os principais modelos de chat do mercado (Claude, Grok, Gemini, LLaMA, ChatGPT, Mistral e muito mais), oferecendo conversação ilimitada com APIs oficiais, além de modos especiais como Batalha & Comparação entre modelos. Ative o modo 'Direct Chat' para utilização completa.",
       color: "text-pink-400",
     },
-    {
-      nome: "Tubefy",
-      descricao:
-        "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
-      color: "text-pink-400",
-    },
+   
   
     {
       nome: "Finevoice (Clone Voz)",
@@ -2421,7 +2416,7 @@ Ferramentas Plano Super Premium  = [
 },
 
 {
-  nome: "Seedance 2.0",
+  nome: "Seedance 2.0 mini",
   descricao:
     "Modelo avançado de IA focado na geração de vídeos de alta qualidade com movimentos realistas e consistência cinematográfica. Oferece controle refinado de cena, animação fluida, interpretação precisa de prompts e suporte a estilos variados — ideal para criação de conteúdos visuais profissionais e criativos.",
   color: "text-pink-400",
@@ -3273,12 +3268,7 @@ Ferramentas Plano Premium = [
         "Plataforma para baixar modelos, templates e recursos gráficos prontos para uso.",
       color: "text-pink-400",
     },
-    {
-      nome: "Tubefy",
-      descricao:
-        "Tenha acesso a um painel completo de I.A para criar canal dark! tem ferramentas de I.A, treinamentos, aulas e muito mais!",
-      color: "text-pink-400",
-    },
+    
     
     {
       nome: "Finevoice (Clone Voz)",
