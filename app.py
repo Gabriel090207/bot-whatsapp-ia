@@ -908,6 +908,11 @@ Ferramentas Plano Super Premium  = [
   descricao:
     "Ouça suas músicas favoritas, playlists e podcasts enquanto trabalha direto pelo painel.",
 },
+ {
+  nome: "HeyGen",
+  descricao: "Plataforma de IA para criar vídeos com avatares realistas, clonagem de voz, tradução de vídeos e geração de apresentações em vídeo.",
+
+},
 {
   nome: "Apple TV+",
   descricao:
@@ -2633,6 +2638,12 @@ Ferramentas Plano Premium = [
       descricao:
         "Gera conteúdo digital completo com automação e inteligência artificial.",
     },
+
+    {
+  nome: "HeyGen",
+  descricao: "Plataforma de IA para criar vídeos com avatares realistas, clonagem de voz, tradução de vídeos e geração de apresentações em vídeo.",
+   color: "text-pink-400",
+},
      {
       nome: "Venice AI",
       descricao:
