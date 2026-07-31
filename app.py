@@ -913,6 +913,18 @@ Ferramentas Plano Super Premium  = [
   descricao: "Plataforma de IA para criar vídeos com avatares realistas, clonagem de voz, tradução de vídeos e geração de apresentações em vídeo.",
 
 },
+
+
+{
+  nome: "Duolingo",
+  descricao: "Aprenda idiomas de forma divertida e interativa com lições personalizadas, exercícios práticos e recursos de inteligência artificial para acelerar seu aprendizado.",
+},
+{
+  nome: "Descomplica",
+  descricao: "Estude para vestibulares, ENEM e concursos com uma plataforma que utiliza inteligência artificial para personalizar seus estudos e facilitar o aprendizado.",
+},
+
+
 {
   nome: "Apple TV+",
   descricao:
@@ -2459,6 +2471,25 @@ Ferramentas Plano Super Premium  = [
 },
 
 
+{
+  nome: "ElevenReader",
+  descricao: "Transforme textos em áudio com vozes naturais e de alta qualidade, ideal para ouvir livros, documentos e conteúdos em qualquer lugar.",
+   color: "text-pink-400",
+},
+{
+  nome: "Copilot",
+  descricao: "Aumente sua produtividade com a inteligência artificial da Microsoft para escrever, pesquisar, programar, criar conteúdos e resolver tarefas do dia a dia.",
+   color: "text-pink-400",
+},
+{
+  nome: "Clipchamp",
+  descricao: "Crie e edite vídeos com facilidade usando ferramentas de inteligência artificial para geração de narração, legendas automáticas e edição inteligente.",
+   color: "text-pink-400",
+},
+
+
+
+
   ];
 
 Ferramentas Plano Premium = [
@@ -3322,6 +3353,16 @@ Ferramentas Plano Premium = [
   nome: "SeaArt AI",
   descricao: "Crie imagens incríveis com inteligência artificial a partir de textos, explorando estilos artísticos, personagens, ilustrações e designs de forma rápida e ilimitada.",
   color: "text-pink-400",
+},
+
+
+{
+  nome: "Duolingo",
+  descricao: "Aprenda idiomas de forma divertida e interativa com lições personalizadas, exercícios práticos e recursos de inteligência artificial para acelerar seu aprendizado.",
+},
+{
+  nome: "Descomplica",
+  descricao: "Estude para vestibulares, ENEM e concursos com uma plataforma que utiliza inteligência artificial para personalizar seus estudos e facilitar o aprendizado.",
 },
 },
 
